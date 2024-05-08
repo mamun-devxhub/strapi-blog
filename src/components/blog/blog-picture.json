@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_blog_blog_pictures",
+  "info": {
+    "displayName": "BlogPicture",
+    "icon": "apps"
+  },
+  "options": {},
+  "attributes": {
+    "alt": {
+      "type": "string",
+      "required": true,
+      "minLength": 3
+    },
+    "src": {
+      "type": "string",
+      "required": true,
+      "minLength": 3
+    },
+    "width": {
+      "type": "string",
+      "required": true,
+      "minLength": 1
+    }
+  }
+}

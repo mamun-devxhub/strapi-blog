@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_blog_markdow_blocks",
+  "info": {
+    "displayName": "MarkdowBlock",
+    "icon": "apps"
+  },
+  "options": {},
+  "attributes": {
+    "content_markdown": {
+      "type": "richtext",
+      "required": true,
+      "minLength": 3
+    }
+  }
+}
