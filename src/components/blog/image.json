@@ -1,0 +1,37 @@
+{
+  "collectionName": "components_blog_images",
+  "info": {
+    "displayName": "Image",
+    "icon": "apps",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "alt": {
+      "type": "string",
+      "required": true,
+      "minLength": 3
+    },
+    "width": {
+      "type": "integer",
+      "default": 800,
+      "required": false
+    },
+    "height": {
+      "type": "integer",
+      "required": false,
+      "default": 450
+    },
+    "imageClass": {
+      "type": "string"
+    },
+    "src": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    }
+  }
+}

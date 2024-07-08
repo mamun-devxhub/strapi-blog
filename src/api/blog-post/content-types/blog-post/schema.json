@@ -138,8 +138,20 @@
       "type": "dynamiczone",
       "components": [
         "blog.markdow-block",
-        "blog.you-tube"
+        "blog.you-tube",
+        "blog.image",
+        "blog.test"
       ]
+    },
+    "coverImage": {
+      "type": "component",
+      "repeatable": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "blog.image"
     }
   }
 }

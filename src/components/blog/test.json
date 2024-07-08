@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_blog_tests",
+  "info": {
+    "displayName": "test",
+    "icon": "apps"
+  },
+  "options": {},
+  "attributes": {
+    "tite": {
+      "type": "string"
+    },
+    "link": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    }
+  }
+}

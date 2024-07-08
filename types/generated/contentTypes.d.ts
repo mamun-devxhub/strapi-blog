@@ -475,8 +475,14 @@ export interface ApiBlogPostBlogPost extends Schema.CollectionType {
         };
       }>;
     BlogContent: Attribute.DynamicZone<
-      ['blog.markdow-block', 'blog.you-tube']
+      ['blog.markdow-block', 'blog.you-tube', 'blog.image', 'blog.test']
     > &
+      Attribute.SetPluginOptions<{
+        i18n: {
+          localized: true;
+        };
+      }>;
+    coverImage: Attribute.Component<'blog.image', true> &
       Attribute.SetPluginOptions<{
         i18n: {
           localized: true;
